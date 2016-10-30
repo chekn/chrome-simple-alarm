@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Alarm",
+	"icons": {
+		"16": "ico/Alarm_16.png",
+		"48": "ico/Alarm_48.png",
+		"128": "ico/Alarm_128.png"},
+    "version": "0.0.1",
+    "description": "Alarm",
+	"options_page":"options.html",
+    "permissions" : [
+        "notifications"
+    ],
+    "background" : {
+        "scripts": ["main.js"]
+    }
+}
